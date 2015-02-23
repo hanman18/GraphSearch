@@ -1,0 +1,37 @@
+Explanation:
+This Program includes three classes: Edge,Node, and Graph. Each of these classes
+are added as objects within the program to create a Directed Graph that represents
+towns within KiwiLand. Nodes are the building blocks of the directed graph and act
+as the vertices/towns of the directed graph. Within the edge class, Nodes are added
+as member variables including the starting node and ending node. A weight variable is 
+part of the Edge class also acting as a distance. The Graph class is the main class
+of the program and includes various search methods. 
+
+Instructions:
+The Program can be compiled and run through the command line interface. If
+Assuming that the user has unzipped the program directory and currently 
+within the program directory path: First compile the three files by typing the following
+
+% javac -g Edge.java
+% javac -g Node.java
+% javac -g Graph.java
+
+After compilation, now type:
+
+% java Graph
+
+After running this, the test output should now show on the console.
+
+Output #1: 9
+Output #2: 5
+Output #3: 13
+Output #4: 22
+Output #5: NO SUCH ROUTE
+Output #6: 2
+Output #7: 3
+Output #8: 9
+Output #9: 9
+Output #10: 7
+
+This output shows the result for the test input: 
+Graph: AB5, BC4, CD8, DC8, DE6, AD5, CE2, EB3, AE7.
