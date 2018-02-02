@@ -10,7 +10,7 @@ import java.io.*;
  */
 public class Graph {
 
-
+//TEST
 	private int vertices;	//number of nodes
 	private int indices;	//index of every node
 	private int edges;		//# of edges
